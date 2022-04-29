@@ -2,11 +2,10 @@
 
 Using contracts provided by [TokenMarketNet/ico](https://github.com/TokenMarketNet/ico)
 
-Clone and init the submodules:
+Clone:
 
 ```
-git clone --recursive \
-  https://github.com/SBit-Project/sbitjs-crowdsale-cli
+git clone https://github.com/SBit-Project/sbitjs-crowdsale-cli
 ```
 
 Install dependencies

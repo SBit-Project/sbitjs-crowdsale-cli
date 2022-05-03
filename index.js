@@ -1,8 +1,8 @@
-const { SBit } = require("sbitjs")
+const { Sbit } = require("sbitjs")
 
 const repoData = require("./solar.development.json")
 
-const sbit = new SBit("http://sbit:test@localhost:22002", repoData)
+const sbit = new Sbit("http://sbit:test@localhost:22002", repoData)
 
 const mytoken = sbit.contract("MyToken")
 const crowdsale = sbit.contract("Crowdsale")
